@@ -1,0 +1,114 @@
+body{
+    background:#ebe4e4;
+  }
+
+a{
+  font-family:'Open Sans Condensed', sans-serif;
+  font-size: large;
+  text-decoration: none;
+}
+
+.error {
+  font-size: large;
+  color: red;
+  font-family:Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
+  
+form{
+  background:#adacb1;
+  width: 500px;
+  min-width:250px;
+  margin: 20px auto;
+  position: relative;
+  padding: 50px;
+  font-family:'Open Sans Condensed', sans-serif;
+}
+  
+button[type=submit], input[type=submit]{
+  font-family:'Open Sans Condensed', sans-serif;
+  text-transform:uppercase;
+  outline:none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 40%;
+  background-color: #1aa861;
+  padding: 10px;
+  color: white;
+  border: 1px solid #3498db;
+  border-radius: 3px;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 5px;
+  cursor: pointer;
+  position:relative;
+  top:0;  
+}
+
+input[type=text] {
+  float: right;
+}
+
+input[type=password], select {
+  float: right;
+}
+
+
+input[type=datetime-local], input[type=date]  {
+  float: right;
+}
+
+table, th, td {
+  border: 1px solid black;  
+  margin: auto;
+  position: relative;
+ 
+}
+
+.title_bar {
+  display: flex;
+  height: 60px;
+}
+
+.app_name {
+  width: 200px;
+  background: lightblue;
+  font-size: xx-large;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.page_bar {
+  flex: 1;
+  background: lightgreen;
+  text-align: right;
+}
+
+.add_ing_form {
+  display: none;
+}
+
+.add_item_form {
+  display: none;
+}
+
+.select-checkbox option::before {
+  content: "\2610";
+  width: 1.3em;
+  text-align: center;
+  display: inline-block;
+}
+.select-checkbox option:checked::before {
+  content: "\2611";
+}
+
+input[type=number]::-webkit-inner-spin-button {
+  Opacity: 1;
+}
+
+.rating-buttons input[type="radio"],
+.rating-buttons label {
+    display: inline;
+    margin-right: 10px; /* Optional: Add some spacing between radio buttons */
+}
